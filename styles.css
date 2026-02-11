@@ -302,8 +302,9 @@ nav > ul > span {
     }
 
     nav > ul > a {
-        width: 100vw;
-        justify-items: center;
+        /*width: 100vw;*/
+        /*justify-items: center;*/
+        margin-left: 5vw;
     }
 
     nav > ul > span {
