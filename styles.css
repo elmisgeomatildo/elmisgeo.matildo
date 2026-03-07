@@ -41,7 +41,7 @@ nav > ul {
     justify-content: space-between;
 }
 
-nav, ul, li, nav > ul > span {
+nav, nav > ul, nav > ul > *, nav > ul > span {
     display: flex;
 }
 
@@ -109,6 +109,10 @@ nav > ul > span {
 
 .center-text {
     text-align: center;
+}
+
+.justify-text {
+    text-align: justify;
 }
 
 .gradient-text, .active {
